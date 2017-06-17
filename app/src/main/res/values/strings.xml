@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BusStop!</string>
+
+    <!-- Available directions -->
+    <string-array name="directions">
+        <item>CH Marki</item>
+        <item>Żerań FSO</item>
+    </string-array>
+
+    <!-- Available busstops' names -->
+    <string-array name="stops">
+        <item>CH Marki (pętla)</item>
+        <item>Radzymińska</item>
+        <item>Bystra</item>
+        <item>Krynoliny</item>
+        <item>Młodzieńcza</item>
+        <item>Codzienna</item>
+        <item>Bohuszewiczówny</item>
+        <item>Św. Wincentego</item>
+        <item>Targówek Ratusz</item>
+        <item>Szpital Bródnowski</item>
+        <item>Łabiszyńska</item>
+        <item>Kontratowicza</item>
+        <item>Św. Hieronima</item>
+        <item>Bazyliańska</item>
+        <item>Pelcowizna</item>
+        <item>PKP Toruńska</item>
+        <item>Żerań FSO (pętla)</item>
+    </string-array>
+
+    <!-- Availble lines -->
+    <string-array name="lines">
+        <item>100</item>
+        <item>125</item>
+        <item>135</item>
+        <item>212</item>
+        <item>232</item>
+        <item>314</item>
+        <item>512</item>
+    </string-array>
+
+</resources>

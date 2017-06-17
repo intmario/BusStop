@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Stop tab -->
+    <LinearLayout
+        android:id="@+id/stopTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <!-- Direction selection -->
+        <TextView
+            android:id="@+id/directonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wybierz kierunek podróży"
+            android:textSize="16dp"
+            android:layout_marginBottom="8dp"
+            />
+
+        <Spinner
+            android:id="@+id/directionSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#eeeeee"
+            android:entries="@array/directions"
+            android:layout_marginBottom="16dp"
+            />
+
+        <!-- Stop selection -->
+        <TextView
+            android:id="@+id/busStopText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wybierz przystanek"
+            android:textSize="16dp"
+            android:layout_marginBottom="8dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#eeeeee"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/stopSpinner"
+            android:entries="@array/stops"
+            />
+
+        <!-- Line selection -->
+        <TextView
+            android:id="@+id/lineText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wybierz linię autobusu"
+            android:textSize="16dp"
+            android:layout_marginBottom="8dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/lineSelectorContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <GridLayout
+                android:id="@+id/lineSelectorGrid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
